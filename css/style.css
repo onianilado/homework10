@@ -35,9 +35,13 @@
     height: 60px;
     border-color: #E8E8E8;
     border-width: 2px;
+    border-style: solid;
 }
 .textarea::placeholder,
-.subject::placeholder{
+.fname::placeholder,
+.subject::placeholder,
+.email::placeholder
+{
     color: #CECECE;
     font-size: 13px;
 }
