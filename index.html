@@ -4,6 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Our Website Description">
+    <meta name="keywords" content="HTML, CSS, responsive, forms">
+    <meta name="author" content="Lado Oniani">
+    <meta property="og:url"                content="https://onianilado.github.io/homework10/" />
+    <meta property="og:type"               content="Contact and Photos" />
+    <meta property="og:title"              content="My homework for Facebook" />
+    <meta property="og:description"        content="My homework10 descrioption" />
+    <meta property="og:image"              content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg" />
+    <script src="https://kit.fontawesome.com/3648c978ca.js" crossorigin="anonymous"></script>
     <title>Contact & Photos</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
@@ -11,15 +20,27 @@
 </head>
 <body>
     <section>
-        <div>
-            <h2>Contact</h2>
-            <p>Contact us to get free support</p>
-        </div>
-        <form action="#">
+        <div class="container">
             <div>
-                <textarea name="" id="textarea" placeholder="Description"></textarea>
+                <h2>Contact</h2>
+                <p>Contact us to get free support</p>
             </div>
-        </form>
+            <form action="#" method="GET" class="form-wrapper">
+                <div class="left-block">
+                    <textarea class="textarea outline" id="textarea" placeholder="Description"></textarea>
+                </div>
+                <div class="right-block">
+                    <input class="subject outline" type="text" id="subject" name="inputsubject" placeholder="Subject" required>
+
+                    <input class="fname outline" type="text" id="fname" name="inputfname" placeholder="Name / Surname" required>
+                   
+                    <input class="email outline" type="email" id="email" name="inputemail" placeholder="Email" required>
+                    <div>
+                        <button class="btn" type="submit">Send</button>
+                    </div>
+                </div>
+            </form>
+        </div>
     </section>
 </body>
 </html>

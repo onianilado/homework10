@@ -1,6 +1,54 @@
+.flex{
+    display: flex;
+}
 /* section */
-textarea{
-    width: 720px;
+.container{
+    max-width: 1088px;
+    width: 100%;
+    margin: 0 auto;
+}
+.form-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.left-block{
+    max-width: 720px;
+    width: 100%;
     height: 288px;
+}
+.right-block{
+    max-width: 352px;
+    width: 100%;
+}
+.textarea{
+    width: 100%;
+    height: 100%;
     resize: none;
+    border-color: #E8E8E8;
+    border-width: 2px;
+}
+.subject,
+.fname,
+.email{
+    margin-bottom: 16px;
+    width: 100%;
+    height: 60px;
+    border-color: #E8E8E8;
+    border-width: 2px;
+}
+.textarea::placeholder,
+.subject::placeholder{
+    color: #CECECE;
+    font-size: 13px;
+}
+.btn{
+    width: 100%;
+    height: 60px;
+    background-color: blue;
+    color: #FFF;
+    border: none;
+    font-size: 14px;
+}
+.outline:focus {
+    outline: none;
 }
