@@ -226,3 +226,18 @@
     color: #FFF;
     font-family: 'Poppins';
 }
+.ftr-li{
+    margin-bottom: 20px;
+}
+.link-block{
+    width: 105px;
+    margin-right: 81px;
+    margin-left: 200px;
+}
+.privacy-block{
+    width: 78px;
+    margin-right: 106px;
+}
+.info-block{
+    width: 198px;
+}
