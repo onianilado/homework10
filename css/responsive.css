@@ -3,3 +3,39 @@
         flex-wrap: wrap;
     }
 }
+@media (max-width:855px) {
+    .footer-wraper{
+        flex-wrap: wrap;
+    }
+    .footer-block{
+        margin-bottom: 15px;
+    }
+    .title{
+        font-size:12px;
+    }
+    .text{
+        font-size: 35px;
+    }
+    .photo-title{
+        font-size:12px;
+    }
+    .photo-text{
+        font-size: 30px;
+    }
+}
+@media (max-width:720px){
+    .image-block{
+        justify-content: center;
+    }
+}
+@media (max-width:663px){
+    .link-block{
+        margin-left: 0;
+    }
+}
+@media (max-width:580px) {
+    .icon-wrapper{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
