@@ -1,0 +1,5 @@
+@media (max-width: 1073px) {
+    .image-block{
+        flex-wrap: wrap;
+    }
+}

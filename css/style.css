@@ -143,6 +143,10 @@
     display: flex;
     justify-content: space-between;
 }
+.img{
+    width: 352px;
+    height: 352px;
+}
 .img-container{
     max-width: 1366px;
     width: 100%;
@@ -150,8 +154,8 @@
 }
 /* footer */
 .footer-bg{
-    margin-top: 5px;
     background-color: #121212;
+    margin-top: 5px;
     color: white;
 }
 .footer-container{
@@ -163,7 +167,8 @@
     justify-content: space-between;
 }
 .footer-block:nth-child(1) {
-    width: 260px;
+    max-width: 260px;
+    width: 100%;
 }
 .icon{
     width: 35px;
@@ -230,14 +235,17 @@
     margin-bottom: 20px;
 }
 .link-block{
-    width: 105px;
+    max-width: 105px;
+    width: 100%;
     margin-right: 81px;
     margin-left: 200px;
 }
 .privacy-block{
-    width: 78px;
+    max-width: 78px;
+    width: 100%;
     margin-right: 106px;
 }
 .info-block{
-    width: 198px;
+    max-width: 198px;
+    width: 100%;
 }
